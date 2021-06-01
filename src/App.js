@@ -1,24 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import {BrowserRouter as Router, Route,Link, Redirect} from 'react-router-dom'
+//导入首页和城市选择两个组件
+import Home from './pages/Home'
+import CityList from './pages/CityList'
+
 
 function App() {
   return (
+    <Router>
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* Project Root Component
+      <br/>
+      <Button>Login</Button> */}
+     <Route exact path="/" render={()=><Redirect to="/home" />}></Route>
+      <Route path="/home" component={Home}></Route>
+      <Route path="/cityList" component={CityList}></Route>
     </div>
+    </Router>
   );
 }
 

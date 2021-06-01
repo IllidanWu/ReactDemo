@@ -1,0 +1,72 @@
+{
+  "id": "2579319",
+  "name": "qljcReact",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "33516",
+      "name": "home",
+      "font_class": "home",
+      "unicode": "e6b8",
+      "unicode_decimal": 59064
+    },
+    {
+      "icon_id": "330201",
+      "name": "my",
+      "font_class": "my",
+      "unicode": "e78b",
+      "unicode_decimal": 59275
+    },
+    {
+      "icon_id": "1211199",
+      "name": "delete",
+      "font_class": "delete",
+      "unicode": "e620",
+      "unicode_decimal": 58912
+    },
+    {
+      "icon_id": "7605161",
+      "name": "QR-code2",
+      "font_class": "QR-code",
+      "unicode": "e637",
+      "unicode_decimal": 58935
+    },
+    {
+      "icon_id": "9631818",
+      "name": "bridge",
+      "font_class": "bridge",
+      "unicode": "e679",
+      "unicode_decimal": 59001
+    },
+    {
+      "icon_id": "9697587",
+      "name": "word",
+      "font_class": "icon_xinyong_xianxing_jijin-",
+      "unicode": "e630",
+      "unicode_decimal": 58928
+    },
+    {
+      "icon_id": "10278111",
+      "name": "修改",
+      "font_class": "xiugai",
+      "unicode": "e607",
+      "unicode_decimal": 58887
+    },
+    {
+      "icon_id": "12046870",
+      "name": "document",
+      "font_class": "document",
+      "unicode": "e881",
+      "unicode_decimal": 59521
+    },
+    {
+      "icon_id": "20650053",
+      "name": "道路",
+      "font_class": "daolu",
+      "unicode": "e69f",
+      "unicode_decimal": 59039
+    }
+  ]
+}

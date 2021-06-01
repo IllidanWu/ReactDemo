@@ -1,0 +1,51 @@
+
+.nav .am-flexbox-item{
+    background-color: #eee;
+    top: 20px;
+    width: 400px;
+    height: 100px;
+    margin-bottom: 20px;
+    border-radius: 10%;
+    position: relative;
+}
+.title{
+    font-size: 20px;
+    background-color: #fff;
+    text-align: center;
+}
+.nav img{
+   margin-top: 5px;
+    text-align: center;
+    height: 90px;
+    width:  150px;
+    flex:1;
+
+
+}
+.nav  .itemWarp{
+
+    flex-direction: column;
+    width:94%;
+}
+
+
+.nav .whiteName{
+    margin-top: 30px;
+    float: right;
+
+    font-size: 20px;
+
+    flex:1;
+    width: 150px;
+    height: 90px;
+    
+}
+.nav h2{
+    float: right;
+    right:0;
+
+    font-size: 50px;
+    font-weight: bold;
+}
+  
+
